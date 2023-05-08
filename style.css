@@ -1,0 +1,214 @@
+*{
+    font-family:"montserrat",sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.container {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 0.33fr 1fr;
+    width: 210mm;
+    height: 297mm;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+}
+
+.container .card-satu {
+    padding: 40px 20px;
+    padding-left: 35px;
+    background-color: #d1d1d1;
+    width: 100%;
+    color: #313131;
+}
+
+.container .card-satu .profile {
+    display: inline-flex;
+    margin-bottom: 5px;
+    margin-left: -15px;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    border: 4px solid #2c2b29;
+    background-image: url("image/foto\ ktp.jpeg");
+    background-size: 100%;
+    background-position: center top;
+}
+
+.container .card-satu .contact-box {
+    margin-top: 10px;   
+}
+
+.container .card-satu .contact-box>* {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 0.3fr 1fr;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.container .card-satu .contact-box>* .text {
+    word-break: break-all;
+    display: inline-flex;
+}
+
+.container .card-satu .personal-box {
+    margin-top: 25px;
+}
+
+.container .card-satu .personal-box .dot {
+    background-color: #313131;
+    border-radius: 50%;
+    margin-left: 4px;
+    height: 11px;
+    width: 11px;
+    display:inline-block;
+}
+
+.container .card-satu .personal-box .dot.active {
+    background-color: #741f1f;
+}
+
+.container .card-satu .hobi-box {
+    margin-top: 10px;
+
+}
+
+.container .card-satu .hobi-box .logo {
+    display: grid;
+    margin: 5px 0px;
+    grid-template: 1fr 1fr/1fr 1fr;
+    font-size: 1cm;
+    grid-row-end: 10px;
+}
+
+.container .card-dua {
+    background-color: rgb(27, 63, 105);
+    padding: 40px 20px;
+    padding-right: 75px;
+    color: #b5b5b4;
+
+}
+
+.container .card-dua .head-title {
+    font-size: 4cm;
+    color: aliceblue;
+    font-weight: 400cm;
+}
+
+.container .card-dua .box {
+    display: inline-block;
+    padding: 2px 70px 2px 20px;
+    margin-left: -20px;
+    margin-top: 35px;
+    color: #2c2b29;
+    background-color: rgb(90, 125, 199);
+}
+
+.container .card-dua .grup-1 .desc {
+    margin-top: 15px;
+    line-height: 1.5;
+}
+
+.container .card-dua .grup-2 .desc {
+    margin-top: 15px;
+    margin-left: 20px;
+
+}
+
+.container .card-dua .grup-2 .desc ul {
+    position: relative;
+    margin-left: 5px;
+    margin-top: 20px;
+}
+
+.container .card-dua .grup-2 .desc ul::before {
+    top: 12px;
+    left: -22px;
+    width: 10px;
+    height: 10px;
+    content: "";
+    position: absolute;
+    background-color:rgb(90, 125, 199);
+    border-radius: 50%;
+}
+
+.container .card-dua .grup-2 .desc ul li {
+    list-style-type: none;
+    position: relative;
+
+}
+
+.container .card-dua .grup-2 .desc ul li::before {
+    top: 12px;
+    left: -50px;
+    height: 70px;
+    content: "";
+    position: absolute;
+    border-left: 2px solid rgb(90, 125, 199);
+}
+
+.container .card-dua .grup-2 .desc ul:last-of-type li::before {
+    content:none;
+
+}
+
+.container .card-dua .grup-2 .desc ul li div:last-of-type {
+    color:rgb(90, 125, 199);
+    font-weight: bold;
+}
+
+.container .card-dua .grup-3 .box {
+    margin-top: 10px;
+}
+
+
+.container .card-dua .grup-3 .desc {
+    margin-top: 15px;
+    margin-left: 20px;
+
+}
+
+.container .card-dua .grup-3 .desc ul {
+    margin-top: 20px;
+    margin-left: 5px;
+    position: relative;
+}
+
+.container .card-dua .grup-3 .desc ul::before {
+    top: 9px;
+    left: -22px;
+    width: 10px;
+    height: 10px;
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    background-color: rgb(90, 125, 199);
+
+}
+
+.container .card-dua .grup-3 .desc ul li {
+    list-style-type: none;
+    position: relative;
+}
+
+.container .card-dua .grup-3 .desc ul li::before {
+    top: 13px;
+    left: -50px;
+    height: 110px;
+    content: "";
+    position: absolute;
+    border-left: 2px solid rgb(90, 125, 199);
+
+}
+
+.container .card-dua .grup-3 .desc ul li div:nth-child(1){
+    color: rgb(90, 125, 199);
+    font-weight:bold ;
+}
+
+
+
+
